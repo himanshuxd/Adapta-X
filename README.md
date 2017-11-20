@@ -7,7 +7,7 @@ I love the OS-X style Control buttons so those would be good to have.
 
 Result :
 
-![Alt text](Screenshot from 2017-11-20 16-06-30.png?raw=tue "Adapta GTK+")
+![Alt text]('Screenshot from 2017-11-20 16-06-30.png?raw=tue' "Adapta GTK+")
 
 
 How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
