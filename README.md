@@ -5,7 +5,7 @@ Adapta is a beautiful GTK+ Theme that I love. But Adapta generally comes with sh
 
 I love the OS-X style Control buttons so those would be good to have.
 
-##How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
+How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
 
 1) Use this to install Adapta Theme on your Ubuntu Desktop
 ```Bash
