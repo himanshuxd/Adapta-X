@@ -1,11 +1,11 @@
-# Adapta-X
+# Adapta-X [Ubuntu Version for Unity Enhancement of Buttons]
 My Spin On The Adapta GTK Theme :
 
 Adapta is a beautiful GTK+ Theme that I love. But Adapta generally comes with shitty Close/Minimize/Maximize buttons so I decided to hack it into something bearable. Adapta is one of those precompiled themes so it's not easy to tweak it through regular methods and you can break your Unity/Gnome setup by doing so but there is a workaround.
 
 I love the OS-X style Control buttons so those would be good to have.
 
-How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
+##How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
 
 1) Use this to install Adapta Theme on your Ubuntu Desktop
 ```Bash
@@ -23,3 +23,5 @@ How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
 5) Copy and Replace entire contents of downloaded folder Unity to `~/.themes/Adaptax/Unity`
 
 6) Go Ahead to Unity-Tweak-Tool now there will be an Entry named Adaptax, click on it and exit, your old shabby Max/Min/Close buttons have been replaced with Modern OS-X style buttons.
+
+The Original Adapta Theme is hosted at : https://github.com/adapta-project/adapta-gtk-theme be sure to check whether your distro is supported, and do support their efforts by starring their Repo.
