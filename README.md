@@ -34,4 +34,9 @@ Optional : For a windows 10 Icon instead of Default Unity Dash Icon Like :
 ![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-06-48.png "Unity Dash Changed")
 Copy and Replace the file in Extra to `~/.themes/Adaptax/Unity`
 
+How The New Firefox Qunatum Looks (Firefox 57) :
+![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-07-53.png "Fox")
+
+![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-08-02.png "About")
+
 The Original Adapta Theme is hosted at : https://github.com/adapta-project/adapta-gtk-theme be sure to check whether your distro is supported, and do support their efforts by starring their Repo.
