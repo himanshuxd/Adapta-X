@@ -6,8 +6,10 @@ Adapta is a beautiful GTK+ Theme that I love. But Adapta generally comes with sh
 I love the OS-X style Control buttons so those would be good to have.
 
 Result :
-
-![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-05-44.png "Adapta GTK+")
+Adapta
+![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-06-30.png "Adapta GTK+")
+Adapta-X
+![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-05-44.png "Adapta-X")
 
 
 How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
