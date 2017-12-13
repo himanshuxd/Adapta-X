@@ -31,7 +31,7 @@ How to Get OS-X style Control Button's (Max/Min/Close) + Adapta Theme :
 3) Copy `/usr/share/themes/Adapta` to `~/.themes`
 
 ```Bash
-    cp -r /usr/share/themes/Adapta /home/$USER/.themes/Adaptax
+    /bin/cp -r /usr/share/themes/Adapta /home/$USER/.themes/Adaptax
 ```
 5) Clone Adaptax repo and install theme over Adaptax [see optional] :
 
