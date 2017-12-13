@@ -22,35 +22,38 @@ How to Get OS-X style Control Button's (Max/Min/Close) + Adapta Theme :
     sudo apt-get install adapta-gtk-theme
 ```
 
-2) Head over to Unity-Tweak-Tool and apply Adapta Theme.
+2) Apply Adapta Theme :
+
+```Bash
+    gsettings set org.gnome.desktop.interface gtk-theme "Adapta"
+```
 
 3) Copy `/usr/share/themes/Adapta` to `~/.themes`
 
 ```Bash
-    cp -r /usr/share/themes/Adapta /home/$USER/.themes/xyz
+    cp -r /usr/share/themes/Adapta /home/$USER/.themes/Adaptax
 ```
-4) Rename it as `Adaptax` so that now you have a folder `~/.themes/Adaptax`
+5) Clone Adaptax repo and install theme over Adaptax :
 
 ```Bash
-    mv /home/$USER/.themes/xyz /home/$USER/.themes/Adaptax
+    git clone https://github.com/himanshuxd/Adapta-X
+    /bin/cp -r Adapta-X/unity /home/$USER/.themes/Adaptax
+    rm -rf Adapta-X
 ```
 
-5) Copy and Replace entire contents of downloaded folder Unity to `~/.themes/Adaptax/Unity`
+6) Apply Adaptax :
 
 ```Bash
-    
+    gsettings set org.gnome.desktop.interface gtk-theme "Adaptax"
 ```
 
-6) Go Ahead to Unity-Tweak-Tool now there will be an Entry named Adaptax, click on it and exit, your old shabby Max/Min/Close buttons have been replaced with Modern OS-X style buttons.
-
-
-
-
-Optional : For a windows 10 Icon instead of Default Unity Dash Icon Like :
+## Optional : For a windows 10 Icon instead of Default Unity Dash Icon Like :
 ![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-06-48.png "Unity Dash Changed")
-Copy and Replace the file in Extra to `~/.themes/Adaptax/Unity`
+Copy Windows Launcher file in Extra to `~/.themes/Adaptax/Unity` :
 
-
+```Bash
+    cp /bin/cp -r Adapta-X/Extra /home/$USER/.themes/Adaptax/Unity
+```
 
 How The New Firefox Quantum Looks (Firefox 57) :
 ![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-07-53.png "Fox")
