@@ -33,7 +33,7 @@ How to Get OS-X style Control Button's (Max/Min/Close) + Adapta Theme :
 ```Bash
     cp -r /usr/share/themes/Adapta /home/$USER/.themes/Adaptax
 ```
-5) Clone Adaptax repo and install theme over Adaptax :
+5) Clone Adaptax repo and install theme over Adaptax [see optional] :
 
 ```Bash
     git clone https://github.com/himanshuxd/Adapta-X
@@ -47,12 +47,12 @@ How to Get OS-X style Control Button's (Max/Min/Close) + Adapta Theme :
     gsettings set org.gnome.desktop.interface gtk-theme "Adaptax"
 ```
 
-## Optional : For a windows 10 Icon instead of Default Unity Dash Icon Like :
+## Optional : For a Windows 10 Icon instead of Default Unity Dash Icon :
 ![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-06-48.png "Unity Dash Changed")
-Copy Windows Launcher file in Extra to `~/.themes/Adaptax/Unity` :
+Copy Windows Launcher bfb file in Extra to `~/.themes/Adaptax/Unity`, before removing Adapta-X :
 
 ```Bash
-    cp /bin/cp -r Adapta-X/Extra /home/$USER/.themes/Adaptax/Unity
+    /bin/cp Adapta-X/Extra/launcher_bfb.png /home/$USER/.themes/Adaptax/unity/
 ```
 
 How The New Firefox Quantum Looks (Firefox 57) :
