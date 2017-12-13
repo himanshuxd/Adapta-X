@@ -1,9 +1,9 @@
-# Adapta-X [Ubuntu Version for Unity Enhancement of Buttons]
+# Adapta-X [Ubuntu Unity Version for OS-X style of Buttons]
 My Spin On The Adapta GTK Theme :
 
-Adapta is a beautiful GTK+ Theme that I love. But Adapta generally comes with shitty Close/Minimize/Maximize buttons so I decided to hack it into something bearable. Adapta is one of those precompiled themes so it's not easy to tweak it through regular methods and you can break your Unity/Gnome setup by doing so but there is a workaround.
+Adapta is a beautiful GTK+ Theme that I love. But Adapta generally comes with shitty Close/Minimize/Maximize buttons so I decided to hack it into something more OS-X like. Adapta is one of those precompiled themes so it's not easy to tweak it through regular methods and you can break your Unity/Gnome setup by doing so but there is a workaround.
 
-I love the OS-X style Control buttons so those would be good to have.
+I love the OS-X style Control buttons so those would be good to have. Compare the Max/Min/Close in below Screenshots.
 
 Adapta
 ![Alt text](https://raw.githubusercontent.com/himanshuxd/Adapta-X/master/Screenshot%20from%202017-11-20%2016-06-30.png "Adapta GTK+")
@@ -13,7 +13,7 @@ Adapta-X
 
 
 
-How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
+How to Get OS-X style Control Button's (Max/Min/Close) + Adapta Theme :
 
 1) Use this to install Adapta Theme on your Ubuntu Desktop
 ```Bash
@@ -26,9 +26,20 @@ How to Get OS-X style Control Button's (Max Min Close) + Adapta Theme :
 
 3) Copy `/usr/share/themes/Adapta` to `~/.themes`
 
+```Bash
+    cp -r /usr/share/themes/Adapta /home/$USER/.themes/xyz
+```
 4) Rename it as `Adaptax` so that now you have a folder `~/.themes/Adaptax`
 
+```Bash
+    mv /home/$USER/.themes/xyz /home/$USER/.themes/Adaptax
+```
+
 5) Copy and Replace entire contents of downloaded folder Unity to `~/.themes/Adaptax/Unity`
+
+```Bash
+    
+```
 
 6) Go Ahead to Unity-Tweak-Tool now there will be an Entry named Adaptax, click on it and exit, your old shabby Max/Min/Close buttons have been replaced with Modern OS-X style buttons.
 
